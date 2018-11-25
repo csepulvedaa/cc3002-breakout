@@ -16,7 +16,7 @@ Al momento de crear y agregar los bricks a nuestra lista de niveles, observamos 
 Los cambios que notifica cada brick van en el método hit de la clase AbstractBrick, cada tipo de brick hereda este método, si un brick se destruye manda un mensaje Update a game.
 El metodo Update en la clase Game castea el objeto a tipo brick, al momento de hacer el cast llama al método accept(this) que acepta a game como su visitante.
 Cada brick sabe que hacer con su visitante,
-### EJ:Si el tipo de brick que recibe el visitante es tipo glass, va al método accept(this) sobreescrito en la clase GlassBrick donde llama al método addGlassPoints(this) del propio visitante, que hereda de la Interfaz Gamecontroller.'
+### EJ:Si el tipo de brick que recibe el visitante es tipo glass, va al método accept(this) sobreescrito en la clase GlassBrick donde llama al método addGlassPoints(this) del propio visitante, que hereda de la Interfaz Gamecontroller.
 
 Si A un brick de tipo glass lo visita un game, a ese game se le agregan 50 puntos a su marcador.
 Si a un brick de tipo Wooden lo visita un game, a ese game se le agregan 200 puntos a su marcador.
@@ -25,5 +25,7 @@ Si a un brick de tipo Metal lo visita un game, a ese game se le agrega una Bola.
 Para correr este programa es necesario usar un computador , el programa se ejecuta desde un IDE, agregando el plugin JUNIT 4 teniendo Java version 8 instalado.
 Se debe correr el test BIGTEST, hay test unitarios para mostrar un coverage del 90% de lineas por paquete.
 Los test muestran la lógica detrás de la implementación del juego de arcade Breakout, testeando distintos esccenarios como la creación de niveles, bricks y la interacción entre las clases.
+
+
 
 
