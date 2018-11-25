@@ -1,5 +1,10 @@
 package logic.brick;
 
+import controller.GameController;
+
+import java.util.Observable;
+import java.util.Observer;
+
 /**
  * Interface that represents a brick object.
  * <p>
@@ -34,4 +39,9 @@ public interface Brick {
      * @return the remaining hits to destroy de brick
      */
     int remainingHits();
+    /**Accept
+     * Accepts a Gamecontroller visitor
+     */
+    void accept(GameController Game);
+    void connect(Observer Game);
 }

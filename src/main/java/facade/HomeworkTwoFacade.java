@@ -34,8 +34,7 @@ public class HomeworkTwoFacade {
      * @see Level
      */
     public Level newLevelWithBricksFull(String name, int numberOfBricks, double probOfGlass, double probOfMetal, int seed) {
-        Game g = new Game(3);
-        Level a=g.newLevelWithBricksFull(name,numberOfBricks,probOfGlass,probOfMetal,seed);
+         Level a=game.newLevelWithBricksFull(name,numberOfBricks,probOfGlass,probOfMetal,seed);
         return a;
     }
 
@@ -50,8 +49,7 @@ public class HomeworkTwoFacade {
      * @see Level
      */
     public Level newLevelWithBricksNoMetal(String name, int numberOfBricks, double probOfGlass, int seed) {
-        Game g = new Game(3);
-        Level a=g.newLevelWithBricksNoMetal(name,numberOfBricks,probOfGlass,seed);
+        Level a=game.newLevelWithBricksNoMetal(name,numberOfBricks,probOfGlass,seed);
         return a;}
 
     /**
@@ -114,6 +112,7 @@ public class HomeworkTwoFacade {
      * @see Level
      */
     public Level getCurrentLevel() {
+        System.out.println(game.getCurrentLevel().getName());
         return game.getCurrentLevel();
     }
 
@@ -144,7 +143,7 @@ public class HomeworkTwoFacade {
      * @return the number of points in the current level
      */
     public int getLevelPoints() {
-        return 0;
+        return game.getLevelPoints();
     }
 
     /**
@@ -153,6 +152,7 @@ public class HomeworkTwoFacade {
      * @return the cumulative points
      */
     public int getCurrentPoints() {
+
         return game.getCurrentPoints();
     }
 
@@ -171,7 +171,7 @@ public class HomeworkTwoFacade {
      * @return the new number of available balls
      */
     public int dropBall() {
-        return 0;
+        return game.dropBall();
     }
 
     /**
@@ -180,7 +180,7 @@ public class HomeworkTwoFacade {
      * @return true if the game is over, false otherwise
      */
     public boolean isGameOver() {
-        return false;
+        return game.isGameOver();
     }
 
     /**

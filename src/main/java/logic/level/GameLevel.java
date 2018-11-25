@@ -7,18 +7,17 @@ import logic.brick.MetalBrick;
 import logic.brick.WoodenBrick;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Observer;
 
 public class GameLevel implements Level {
     private String Name;
     private Level NextLevel;
     private List<Brick> BrickList = new ArrayList<>();
     private boolean playable;
-    private int Points=0;
     private int Goal;
     public GameLevel(){
         Name="";
         playable=false;
-        Points=0;
     }
     public GameLevel(String Nombre){
         Name=Nombre;
@@ -72,13 +71,15 @@ public class GameLevel implements Level {
     @Override
     public Level addPlayingLevel(Level level) {
         Level newLevel = level;
-        if (this.getName()==""){
-            newLevel.setNextLevel(null);
-            this.NextLevel=newLevel;
+        newLevel.setNextLevel(null);
+        System.out.println("Nombre "+this.getName()+"Nombre a agregar"+level.getName());
+        if (this.getNextLevel()==null){
+            System.out.println("Nivel a agregar"+newLevel.getName());
+            this.setNextLevel(level);
         }
         else{
             newLevel.setNextLevel(this.NextLevel);
-            this.NextLevel=newLevel;
+            this.setNextLevel(newLevel);
         }
         return NextLevel;
     }
@@ -88,34 +89,35 @@ public class GameLevel implements Level {
         this.NextLevel=level;
 
     }
-    public  void addGlassBricks(int numberOfGlassBricks){
+
+
+    public  void addGlassBricks(int numberOfGlassBricks, Observer O){
         for (int i=0;i<numberOfGlassBricks;i++){
             GlassBrick g = new GlassBrick();
+            g.connect(O);
             this.BrickList.add(g);
             this.Goal=Goal+50;
         }
     }
-    public void addMetalBricks(int numbeOfMetalbricks){
+
+    public void addMetalBricks(int numbeOfMetalbricks,Observer O){
         for (int i=0;i<numbeOfMetalbricks;i++){
             MetalBrick m = new MetalBrick();
+            m.connect(O);
             this.BrickList.add(m);
         }}
 
-    public void addWoodenBricks(int numberOWoodenbricks){
+    public void addWoodenBricks(int numberOWoodenbricks,Observer O){
+
         for (int i=0;i<numberOWoodenbricks;i++){
             WoodenBrick w = new WoodenBrick();
+            w.connect(O);
             this.BrickList.add(w);
             this.Goal=Goal+200;
         }}
 
-    public int getCurrentPoints() {
-        return this.Points;
-    }
 
-    public void Connect(Game game,int numberOfBricks) {
-        for (int i=0;i<numberOfBricks;i++){
 
-        }
 
-    }
+
 }

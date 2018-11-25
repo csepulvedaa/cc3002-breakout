@@ -1,8 +1,10 @@
 package logic.brick;
 
 import controller.Game;
+import controller.GameController;
 
 import java.util.Observable;
+import java.util.Observer;
 
 /**Clase Abstracta para cualquier tipo de brick
  * Se definen metodos y parametros para cualquier brick por defecto
@@ -20,12 +22,18 @@ public class AbstractBrick extends Observable implements Brick {
         this.dmg=0;
     }
 
+    public void connect(Observer game){
+            addObserver(game);
+        }
 
     @Override
     public void hit() {
-        if (this.isDestroyed()){
+        int rh=Hp-dmg;
+        if (rh-1==0){
             setChanged();
-            notifyObservers(this.getScore());
+            notifyObservers(this);
+            clearChanged();
+            dmg=dmg+1;
         }
         else{
         dmg=dmg+1;}
@@ -33,7 +41,8 @@ public class AbstractBrick extends Observable implements Brick {
 
     @Override
     public boolean isDestroyed() {
-        if( Hp<=dmg){ return true;}
+        if( Hp<=dmg){
+            return true;}
         return false;
 
     }
@@ -48,4 +57,7 @@ public class AbstractBrick extends Observable implements Brick {
         if( Hp<=dmg){return 0;}
         return Hp-dmg;
     }
+
+    @Override
+    public void accept(GameController Game) {}
 }
