@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd600c37-66c8-45ba-a0ef-3fe1c8b88ffc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/main/controller/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/controller/Game.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/main/facade/HomeworkTwoFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/facade/HomeworkTwoFacade.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/main/logic/brick/AbstractBrick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/logic/brick/AbstractBrick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/logic/brick/Brick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/logic/brick/Brick.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/main/logic/brick/GlassBrick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/logic/brick/GlassBrick.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/main/logic/brick/MetalBrick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/logic/brick/MetalBrick.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/main/logic/brick/WoodenBrick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/logic/brick/WoodenBrick.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/main/logic/level/GameLevel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/logic/level/GameLevel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/GameController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/facade/HomeworkTwoFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facade/HomeworkTwoFacade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/logic/brick/AbstractBrick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/brick/AbstractBrick.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/logic/brick/Brick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/brick/Brick.java" afterDir="false" />
@@ -21,6 +19,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/logic/brick/MetalBrick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/brick/MetalBrick.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/logic/brick/WoodenBrick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/brick/WoodenBrick.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/logic/level/GameLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/level/GameLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/logic/brick/BrickTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/logic/brick/BrickTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,41 +29,47 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/cc3002_breakout$All_in_main.ic" NAME="All in main Coverage Results" MODIFIED="1543111316024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/cc3002_breakout$logic_level_in_main.ic" NAME="logic.level in main Coverage Results" MODIFIED="1543106610665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>logic.level.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/cc3002_breakout$BigTestT2.ic" NAME="BigTestT2 Coverage Results" MODIFIED="1543098993694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="175" />
+    <option name="myElementSize" value="26" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1555559967">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="29" />
+          <entry key="GameLevel" value="1" />
+          <entry key="JAVA/" value="4" />
+          <entry key="JavaScript-modules-diagram/C:/Users/csepu/Desktop/U CHILE DCC/Tareas/CC3002-1 Metodologías de Diseño y Programación 2018/cc3002-breakout/src/main/java" value="1" />
+          <entry key="MODULES/mdl-main" value="1" />
+          <entry key="java" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="29" />
+          <entry key="JAVA" value="57" />
+          <entry key="UML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3241" />
+          <entry key="java" value="5552" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3241" />
+          <entry key="JAVA" value="5552" />
         </counts>
       </usages-collector>
     </session>
@@ -74,20 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/test/BigTestT2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
+            <state relative-caret-position="196">
               <caret line="514" selection-start-line="514" selection-end-line="514" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/logic/brick/Brick.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/test/logic/brick/BrickTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="69">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -107,55 +100,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/test/logic/level/GameLevelTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="238">
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="23" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/logic/level/Level.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/logic/brick/AbstractBrick.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-574">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/GameController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+            <state relative-caret-position="544">
+              <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/facade/HomeworkTwoFacade.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="135" column="36" lean-forward="true" selection-start-line="135" selection-start-column="36" selection-end-line="135" selection-end-column="36" />
-              <folding>
-                <element signature="e#2062#2063#0" expanded="true" />
-                <element signature="e#2106#2107#0" expanded="true" />
-                <element signature="e#2261#2262#0" expanded="true" />
-                <element signature="e#2300#2301#0" expanded="true" />
-                <element signature="e#2517#2518#0" expanded="true" />
-                <element signature="e#2559#2560#0" expanded="true" />
-                <element signature="e#4155#4156#0" expanded="true" />
-                <element signature="e#4199#4200#0" expanded="true" />
-                <element signature="e#4584#4585#0" expanded="true" />
-                <element signature="e#4626#4627#0" expanded="true" />
-                <element signature="e#4799#4800#0" expanded="true" />
-                <element signature="e#4837#4838#0" expanded="true" />
-                <element signature="e#5083#5084#0" expanded="true" />
-                <element signature="e#5123#5124#0" expanded="true" />
-                <element signature="e#5278#5279#0" expanded="true" />
-                <element signature="e#5314#5315#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#781#782#0" expanded="true" />
+                <element signature="e#1197#1198#0" expanded="true" />
+                <element signature="e#1225#1226#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -164,8 +124,44 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/logic/level/GameLevel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="80" column="50" lean-forward="true" selection-start-line="80" selection-start-column="50" selection-end-line="80" selection-end-column="50" />
+            <state relative-caret-position="60">
+              <caret line="93" column="36" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/logic/level/Level.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/logic/brick/GlassBrick.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/facade/HomeworkTwoFacade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="113" column="36" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="36" />
+              <folding>
+                <element signature="e#2062#2063#0" expanded="true" />
+                <element signature="e#2106#2107#0" expanded="true" />
+                <element signature="e#2261#2262#0" expanded="true" />
+                <element signature="e#2300#2301#0" expanded="true" />
+                <element signature="e#2517#2518#0" expanded="true" />
+                <element signature="e#2559#2560#0" expanded="true" />
+                <element signature="e#3391#3392#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,23 +169,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-148">
-              <caret line="193" column="7" lean-forward="true" selection-start-line="193" selection-start-column="7" selection-end-line="193" selection-end-column="7" />
+            <state relative-caret-position="98">
+              <caret line="221" column="8" lean-forward="true" selection-start-line="221" selection-start-column="8" selection-end-line="221" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/GameController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-85">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding>
-                <element signature="e#2943#2944#0" expanded="true" />
-                <element signature="e#2984#2985#0" expanded="true" />
-                <element signature="e#3173#3174#0" expanded="true" />
-                <element signature="e#3222#3223#0" expanded="true" />
-                <element signature="e#3257#3258#0" expanded="true" />
-                <element signature="e#3308#3309#0" expanded="true" />
-                <element signature="e#3346#3347#0" expanded="true" />
-                <element signature="e#3389#3390#0" expanded="true" />
-                <element signature="e#3427#3428#0" expanded="true" />
-                <element signature="e#3458#3459#0" expanded="true" />
-                <element signature="e#3504#3505#0" expanded="true" />
-                <element signature="e#3551#3552#0" expanded="true" />
-                <element signature="e#3599#3600#0" expanded="true" />
-                <element signature="e#3646#3647#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -208,7 +200,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>update</find>
       <find>getnumber</find>
       <find>retorn</find>
       <find>numberofbricks</find>
@@ -218,7 +209,6 @@
       <find>hascurr</find>
       <find>getlevel</find>
       <find>getcurrent</find>
-      <find>set</find>
       <find>addpl</find>
       <find>getl</find>
       <find>getcurrentpo</find>
@@ -227,6 +217,9 @@
       <find>isgame</find>
       <find>winner</find>
       <find>addplay</find>
+      <find>update</find>
+      <find>set</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -237,15 +230,16 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/controller/PointGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/brick/Brick.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logic/brick/GlassBrick.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logic/brick/MetalBrick.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/brick/WoodenBrick.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logic/brick/AbstractBrick.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/GameController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/facade/HomeworkTwoFacade.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/Game.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logic/level/GameLevel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/GameController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logic/brick/GlassBrick.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logic/brick/AbstractBrick.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logic/brick/MetalBrick.java" />
         <option value="$PROJECT_DIR$/src/main/test/logic/brick/BrickTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logic/level/Level.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logic/level/GameLevel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/facade/HomeworkTwoFacade.java" />
       </list>
     </option>
   </component>
@@ -328,6 +322,13 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="logic" type="462c0819:PsiDirectoryNode" />
+              <item name="brick" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cc3002-breakout" type="b2602c69:ProjectViewProjectNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
               <item name="level" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -343,7 +344,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543106830153" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543114546284" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -351,6 +352,14 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="logic.brick" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -364,7 +373,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.logic.level in main">
+  <component name="RunManager" selected="JUnit.All in main">
+    <configuration name="All in main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="main" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BigTestT2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="main" />
       <option name="PACKAGE_NAME" value="" />
@@ -383,22 +400,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BigTestT2.testMetalBricks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameLevelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="main" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BigTestT2" />
-      <option name="METHOD_NAME" value="testMetalBricks" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BigTestT2.testNextLevelAddition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="main" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BigTestT2" />
-      <option name="METHOD_NAME" value="testNextLevelAddition" />
-      <option name="TEST_OBJECT" value="method" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="logic.level.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="logic.level" />
+      <option name="MAIN_CLASS_NAME" value="logic.level.GameLevelTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -419,18 +430,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.BigTestT2" />
-      <item itemvalue="JUnit.BigTestT2.testMetalBricks" />
       <item itemvalue="JUnit.BigTestT2.testGamePlay" />
-      <item itemvalue="JUnit.BigTestT2.testNextLevelAddition" />
       <item itemvalue="JUnit.logic.level in main" />
+      <item itemvalue="JUnit.GameLevelTest" />
+      <item itemvalue="JUnit.All in main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in main" />
+        <item itemvalue="JUnit.GameLevelTest" />
         <item itemvalue="JUnit.logic.level in main" />
         <item itemvalue="JUnit.BigTestT2" />
         <item itemvalue="JUnit.BigTestT2.testGamePlay" />
-        <item itemvalue="JUnit.BigTestT2.testNextLevelAddition" />
-        <item itemvalue="JUnit.BigTestT2.testMetalBricks" />
       </list>
     </recent_temporary>
   </component>
@@ -445,50 +456,50 @@
       <option name="presentableId" value="Default" />
       <updated>1543042094575</updated>
       <workItem from="1543042095982" duration="152000" />
-      <workItem from="1543042251255" duration="27788000" />
+      <workItem from="1543042251255" duration="35458000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BigTestT2_testGamePlay - 2018.11.24 at 21h 28m 23s.xml">
-      <configuration name="BigTestT2.testGamePlay" configurationId="JUnit" />
+    <history-entry file="All_in_main - 2018.11.24 at 22h 59m 17s.xml">
+      <configuration name="All in main" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BigTestT2_testGamePlay - 2018.11.24 at 21h 29m 27s.xml">
-      <configuration name="BigTestT2.testGamePlay" configurationId="JUnit" />
+    <history-entry file="All_in_main - 2018.11.24 at 23h 00m 50s.xml">
+      <configuration name="All in main" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BigTestT2_testGamePlay - 2018.11.24 at 21h 30m 58s.xml">
-      <configuration name="BigTestT2.testGamePlay" configurationId="JUnit" />
+    <history-entry file="All_in_main - 2018.11.24 at 23h 01m 59s.xml">
+      <configuration name="All in main" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BigTestT2_testGamePlay - 2018.11.24 at 21h 32m 31s.xml">
-      <configuration name="BigTestT2.testGamePlay" configurationId="JUnit" />
+    <history-entry file="All_in_main - 2018.11.24 at 23h 19m 05s.xml">
+      <configuration name="All in main" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BigTestT2_testGamePlay - 2018.11.24 at 21h 33m 05s.xml">
-      <configuration name="BigTestT2.testGamePlay" configurationId="JUnit" />
+    <history-entry file="All_in_main - 2018.11.24 at 23h 48m 28s.xml">
+      <configuration name="All in main" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BigTestT2_testGamePlay - 2018.11.24 at 21h 33m 30s.xml">
-      <configuration name="BigTestT2.testGamePlay" configurationId="JUnit" />
+    <history-entry file="All_in_main - 2018.11.24 at 23h 50m 20s.xml">
+      <configuration name="All in main" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BigTestT2_testGamePlay - 2018.11.24 at 21h 34m 38s.xml">
-      <configuration name="BigTestT2.testGamePlay" configurationId="JUnit" />
+    <history-entry file="All_in_main - 2018.11.24 at 23h 50m 52s.xml">
+      <configuration name="All in main" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BigTestT2_testGamePlay - 2018.11.24 at 21h 39m 39s.xml">
-      <configuration name="BigTestT2.testGamePlay" configurationId="JUnit" />
+    <history-entry file="All_in_main - 2018.11.24 at 23h 51m 13s.xml">
+      <configuration name="All in main" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BigTestT2 - 2018.11.24 at 21h 39m 45s.xml">
-      <configuration name="BigTestT2" configurationId="JUnit" />
+    <history-entry file="All_in_main - 2018.11.24 at 23h 52m 18s.xml">
+      <configuration name="All in main" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="logic_level_in_main - 2018.11.24 at 21h 43m 33s.xml">
-      <configuration name="logic.level in main" configurationId="JUnit" />
+    <history-entry file="All_in_main - 2018.11.24 at 23h 52m 35s.xml">
+      <configuration name="All in main" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27940000" />
+    <option name="totallyTimeSpent" value="35610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2534413" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2534413" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -497,7 +508,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38967973" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3291815" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -507,7 +518,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3291815" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32955465" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.032388665" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -519,7 +530,7 @@
       <window_info anchor="right" id="Maven Projects" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2534413" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2534413" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -528,7 +539,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38967973" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3291815" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -538,7 +549,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3291815" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.32955465" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.032388665" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -569,44 +580,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/brick/AbstractBrick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-166">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/brick/WoodenBrick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding>
-            <element signature="e#245#246#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/brick/MetalBrick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding>
-            <element signature="e#234#235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/brick/GlassBrick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/PointGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -617,20 +590,185 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/BigTestT2.java">
+    <entry file="uml://MODULES/mdl-main">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-main</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="53.5" y="14.5" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/csepu/Desktop/U CHILE DCC/Tareas/CC3002-1 Metodologías de Diseño y Programación 2018/cc3002-breakout/src/main/java">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/main/java</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="461.0" y="255.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/logic.level.GameLevel">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>logic.level.GameLevel</OriginalElement>
+          <nodes>
+            <node x="" y="">logic.level.GameLevel</node>
+            <node x="" y="">logic.level.Level</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="52.0" y="54.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="26.0" y="311.0">controller.Game</node>
+            <node x="0.0" y="158.0">logic.brick.MetalBrick</node>
+            <node x="122.0" y="158.0">logic.brick.GlassBrick</node>
+            <node x="114.0" y="79.0">logic.brick.AbstractBrick</node>
+            <node x="136.0" y="0.0">logic.brick.Brick</node>
+            <node x="0.0" y="385.0">facade.HomeworkTwoFacade</node>
+            <node x="0.0" y="232.0">controller.GameController</node>
+            <node x="175.0" y="311.0">logic.level.GameLevel</node>
+            <node x="190.0" y="232.0">logic.level.Level</node>
+            <node x="242.0" y="158.0">logic.brick.WoodenBrick</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="controller.Game" target="controller.GameController">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="logic.brick.AbstractBrick" target="logic.brick.Brick">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="logic.brick.MetalBrick" target="logic.brick.AbstractBrick">
+              <point x="0.0" y="-14.5" />
+              <point x="51.0" y="133.0" />
+              <point x="133.33333333333334" y="133.0" />
+              <point x="-38.66666666666666" y="14.5" />
+            </edge>
+            <edge source="logic.level.GameLevel" target="logic.level.Level">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="logic.brick.WoodenBrick" target="logic.brick.AbstractBrick">
+              <point x="0.0" y="-14.5" />
+              <point x="301.0" y="133.0" />
+              <point x="210.66666666666666" y="133.0" />
+              <point x="38.66666666666666" y="14.5" />
+            </edge>
+            <edge source="logic.brick.GlassBrick" target="logic.brick.AbstractBrick">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="8.5" y="221.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/brick/Brick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="514" selection-start-line="514" selection-end-line="514" />
+        <state relative-caret-position="503">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/brick/Brick.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/brick/WoodenBrick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/brick/MetalBrick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/brick/GlassBrick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/logic/brick/BrickTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/logic/level/GameLevelTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/brick/AbstractBrick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+          <folding>
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="221" column="8" lean-forward="true" selection-start-line="221" selection-start-column="8" selection-end-line="221" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/GameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -639,39 +777,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/logic/level/Level.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-574">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/logic/level/GameLevelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/logic/brick/BrickTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/GameController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="346">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/facade/HomeworkTwoFacade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="135" column="36" lean-forward="true" selection-start-line="135" selection-start-column="36" selection-end-line="135" selection-end-column="36" />
+        <state relative-caret-position="71">
+          <caret line="113" column="36" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="36" />
           <folding>
             <element signature="e#2062#2063#0" expanded="true" />
             <element signature="e#2106#2107#0" expanded="true" />
@@ -679,47 +793,25 @@
             <element signature="e#2300#2301#0" expanded="true" />
             <element signature="e#2517#2518#0" expanded="true" />
             <element signature="e#2559#2560#0" expanded="true" />
-            <element signature="e#4155#4156#0" expanded="true" />
-            <element signature="e#4199#4200#0" expanded="true" />
-            <element signature="e#4584#4585#0" expanded="true" />
-            <element signature="e#4626#4627#0" expanded="true" />
-            <element signature="e#4799#4800#0" expanded="true" />
-            <element signature="e#4837#4838#0" expanded="true" />
-            <element signature="e#5083#5084#0" expanded="true" />
-            <element signature="e#5123#5124#0" expanded="true" />
-            <element signature="e#5278#5279#0" expanded="true" />
-            <element signature="e#5314#5315#0" expanded="true" />
+            <element signature="e#3391#3392#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Game.java">
+    <entry file="file://$PROJECT_DIR$/src/main/test/BigTestT2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-148">
-          <caret line="193" column="7" lean-forward="true" selection-start-line="193" selection-start-column="7" selection-end-line="193" selection-end-column="7" />
+        <state relative-caret-position="196">
+          <caret line="514" selection-start-line="514" selection-end-line="514" />
           <folding>
-            <element signature="e#2943#2944#0" expanded="true" />
-            <element signature="e#2984#2985#0" expanded="true" />
-            <element signature="e#3173#3174#0" expanded="true" />
-            <element signature="e#3222#3223#0" expanded="true" />
-            <element signature="e#3257#3258#0" expanded="true" />
-            <element signature="e#3308#3309#0" expanded="true" />
-            <element signature="e#3346#3347#0" expanded="true" />
-            <element signature="e#3389#3390#0" expanded="true" />
-            <element signature="e#3427#3428#0" expanded="true" />
-            <element signature="e#3458#3459#0" expanded="true" />
-            <element signature="e#3504#3505#0" expanded="true" />
-            <element signature="e#3551#3552#0" expanded="true" />
-            <element signature="e#3599#3600#0" expanded="true" />
-            <element signature="e#3646#3647#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/logic/level/GameLevel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="80" column="50" lean-forward="true" selection-start-line="80" selection-start-column="50" selection-end-line="80" selection-end-column="50" />
+        <state relative-caret-position="60">
+          <caret line="93" column="36" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
         </state>
       </provider>
     </entry>

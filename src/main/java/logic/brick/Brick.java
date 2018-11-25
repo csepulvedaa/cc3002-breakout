@@ -43,5 +43,10 @@ public interface Brick {
      * Accepts a Gamecontroller visitor
      */
     void accept(GameController Game);
+
+    /**Connect
+     * Connects a Game Observer
+     * @param Game Observer
+     */
     void connect(Observer Game);
 }

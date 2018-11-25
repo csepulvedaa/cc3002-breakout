@@ -7,7 +7,8 @@ import logic.brick.WoodenBrick;
 /**
  * Interface for the game controller
  * controls the action of the game, adding points for each hitted brick
- *
+ * @author csepu
+ * @version nov 2018
  */
 
 public interface GameController {

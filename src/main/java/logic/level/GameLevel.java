@@ -9,26 +9,46 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Observer;
 
+/**Level Class
+ * Implements level interface contains methods for a linked level list
+ * @author csepu
+ * @version  nov 2018
+ */
+
 public class GameLevel implements Level {
     private String Name;
     private Level NextLevel;
     private List<Brick> BrickList = new ArrayList<>();
     private boolean playable;
     private int Goal;
+
+    /**
+     * Default Constructor For a Level
+     */
     public GameLevel(){
         Name="";
         playable=false;
     }
+
+    /**
+     * Constructor for a level with string
+     * @param Nombre Level Name
+     */
     public GameLevel(String Nombre){
         Name=Nombre;
         playable=true;
 
     }
 
+    /**
+     * sets te level name
+     *
+     * @param name
+     */
     public void setName(String name) {
         Name = name;
     }
-
+    //Override for Level Interface Methods
     @Override
     public String getName() {
         return Name;
@@ -72,9 +92,7 @@ public class GameLevel implements Level {
     public Level addPlayingLevel(Level level) {
         Level newLevel = level;
         newLevel.setNextLevel(null);
-        System.out.println("Nombre "+this.getName()+"Nombre a agregar"+level.getName());
         if (this.getNextLevel()==null){
-            System.out.println("Nivel a agregar"+newLevel.getName());
             this.setNextLevel(level);
         }
         else{
@@ -82,6 +100,7 @@ public class GameLevel implements Level {
             this.setNextLevel(newLevel);
         }
         return NextLevel;
+
     }
 
     @Override
@@ -90,6 +109,11 @@ public class GameLevel implements Level {
 
     }
 
+    /**
+     * Add GlassBricks To Level and connects them with observer
+     * @param numberOfGlassBricks Number Of Glassbricks to add
+     * @param O Game Observer
+     */
 
     public  void addGlassBricks(int numberOfGlassBricks, Observer O){
         for (int i=0;i<numberOfGlassBricks;i++){
@@ -100,6 +124,11 @@ public class GameLevel implements Level {
         }
     }
 
+    /**
+     * Add Metalbricks To Level and connects them with observer
+     * @param numbeOfMetalbricks Number Of MetalBricks to add
+     * @param O Observer
+     */
     public void addMetalBricks(int numbeOfMetalbricks,Observer O){
         for (int i=0;i<numbeOfMetalbricks;i++){
             MetalBrick m = new MetalBrick();
@@ -107,6 +136,11 @@ public class GameLevel implements Level {
             this.BrickList.add(m);
         }}
 
+    /**
+     * Add WoodenBricks To Level and connects them with observer
+     * @param numberOWoodenbricks Number Of WoodenBriks to add
+     * @param O Observer
+     */
     public void addWoodenBricks(int numberOWoodenbricks,Observer O){
 
         for (int i=0;i<numberOWoodenbricks;i++){

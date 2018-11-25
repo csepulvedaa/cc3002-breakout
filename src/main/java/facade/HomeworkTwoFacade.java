@@ -112,7 +112,6 @@ public class HomeworkTwoFacade {
      * @see Level
      */
     public Level getCurrentLevel() {
-        System.out.println(game.getCurrentLevel().getName());
         return game.getCurrentLevel();
     }
 

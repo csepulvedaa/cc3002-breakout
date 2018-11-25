@@ -6,8 +6,8 @@ import controller.GameController;
 import java.util.Observable;
 import java.util.Observer;
 
-/**Clase Abstracta para cualquier tipo de brick
- * Se definen metodos y parametros para cualquier brick por defecto
+/**Abstract Class For Any Brick
+ * Contains All Bricks Methods
  * @author csepu
  * @version Nov 2018
  */
@@ -16,16 +16,25 @@ public class AbstractBrick extends Observable implements Brick {
     private int Score;
     private int dmg;
 
+    /**
+     * Default Constructor for a Brick
+     * @param Hp Hp
+     * @param Score Points For Breaking
+     */
     public AbstractBrick(int Hp, int Score){
         this.Hp=Hp;
         this.Score=Score;
         this.dmg=0;
     }
 
+    /**Connects to a Game Observer
+     *
+     * @param game
+     */
     public void connect(Observer game){
             addObserver(game);
         }
-
+    //Override of Brick Interface
     @Override
     public void hit() {
         int rh=Hp-dmg;

@@ -22,7 +22,10 @@ public class Game implements Observer,GameController {
     private int balls;
     private int Points;
 
-
+    /**
+     * Default Constructor For a Game
+     * @param balls number of balls
+     */
     public Game(int balls) {
         this.balls=balls;
 
@@ -50,7 +53,27 @@ public class Game implements Observer,GameController {
         return NewLevel;
     }
 
+    /**
+     * Override for Observer
+     * Add points to the game
+     * @param o
+     * @param arg
+     */
+    @Override
+    public void update(Observable o, Object arg) {
+        if (arg instanceof Brick){
+            ((Brick) arg).accept(this);
+        }
+    }
 
+    /**
+     * NumberOfMetal
+     * Gets te number of Metal bricks to add
+     * @param probOfMetal
+     * @param numberOfBricks
+     * @param seed
+     * @return Numer Of Metal Bricks
+     */
     public double NumberOfMetal(double probOfMetal, int numberOfBricks,int seed) {
         Random O =new Random(seed);
         double numberOfMetalBricks = 0;
@@ -71,6 +94,14 @@ public class Game implements Observer,GameController {
 
     }
 
+    /**
+     * NumberOfGlass Bricks to add
+     *
+     * @param probOfGlass
+     * @param numberOfBricks
+     * @param seed
+     * @return Number Of Glass bricks
+     */
     public double NumberOfGlass(double probOfGlass, int numberOfBricks,int seed) {
         Random O =new Random(seed);
         double numberOfGlassBricks = 0;
@@ -216,12 +247,7 @@ public class Game implements Observer,GameController {
         return Points;
     }
 
-    @Override
-    public void update(Observable o, Object arg) {
-        if (arg instanceof Brick){
-            ((Brick) arg).accept(this);
-        }
-    }
+
 
     /**
      * Checks whether the game is over or not. A game is over when the number of available balls are 0 or the player won the game.
@@ -244,7 +270,7 @@ public class Game implements Observer,GameController {
         this.balls=balls-1;
         return balls;
     }
-
+    //Override for GameController Methods
     @Override
     public void addWoodenPoints(WoodenBrick wbrick) {
         this.Points=Points+wbrick.getScore();
