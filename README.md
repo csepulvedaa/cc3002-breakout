@@ -16,7 +16,7 @@ Al momento de crear y agregar los bricks a nuestra lista de niveles, observamos 
 Los cambios que notifica cada brick van en el método hit de la clase AbstractBrick, cada tipo de brick hereda este método, si un brick se destruye manda un mensaje Update a game.
 El metodo Update en la clase Game castea el objeto a tipo brick, al momento de hacer el cast llama al método accept(this) que acepta a game como su visitante.
 Cada brick sabe que hacer con su visitante,
-'EJ:Si el tipo de brick que recibe el visitante es tipo glass, va al método accepsobreescrito en la clase GlassBrick donde llama al método addGlassPoints(this) del propio visitante, que hereda de la Interfaz Gamecontroller.'
+### EJ:Si el tipo de brick que recibe el visitante es tipo glass, va al método accept(this) sobreescrito en la clase GlassBrick donde llama al método addGlassPoints(this) del propio visitante, que hereda de la Interfaz Gamecontroller.'
 
 Si A un brick de tipo glass lo visita un game, a ese game se le agregan 50 puntos a su marcador.
 Si a un brick de tipo Wooden lo visita un game, a ese game se le agregan 200 puntos a su marcador.
