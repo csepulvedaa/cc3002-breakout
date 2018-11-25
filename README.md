@@ -10,13 +10,13 @@ La clase gamelevel implementa la interfaz Level
 # Implementación de Game
 La clase game contiene los metodos del controlador del juego, escencialmente los mismos que el Facade de nuestro proyecto más los necesarios para implementar patrones de diseño
 # Interfaz Gamecontroller de Game como Visitor
-La interfaz gamecontroller de la clase game contiene los métodos para agregar los respectivos puntos según el tipo de brick que se haya destruido
+La interfaz gamecontroller implementada por la clase game contiene los métodos para agregar los respectivos puntos según el tipo de brick que se haya destruido
 ## Game Como Observer/Visitor y Brick como Observable/Visitable
 Al momento de crear y agregar los bricks a nuestra lista de niveles, observamos cada brick con nuestra clase game para notificar los cambios
 Los cambios que notifica cada brick van en el método hit de la clase AbstractBrick, cada tipo de brick hereda este método, si un brick se destruye manda un mensaje Update a game.
 El metodo Update en la clase Game castea el objeto a tipo brick, al momento de hacer el cast llama al método accept(this) que acepta a game como su visitante.
 Cada brick sabe que hacer con su visitante,
-### EJ:Si el tipo de brick que recibe el visitante es tipo glass, va al método accepsobreescrito en la clase GlassBrick donde llama al método addGlassPoints(this) del propio visitante, que hereda de la Interfaz Gamecontroller.
+'EJ:Si el tipo de brick que recibe el visitante es tipo glass, va al método accepsobreescrito en la clase GlassBrick donde llama al método addGlassPoints(this) del propio visitante, que hereda de la Interfaz Gamecontroller.'
 
 Si A un brick de tipo glass lo visita un game, a ese game se le agregan 50 puntos a su marcador.
 Si a un brick de tipo Wooden lo visita un game, a ese game se le agregan 200 puntos a su marcador.
