@@ -21,6 +21,8 @@ Cada brick sabe que hacer con su visitante,
 Si A un brick de tipo glass lo visita un game, a ese game se le agregan 50 puntos a su marcador.
 Si a un brick de tipo Wooden lo visita un game, a ese game se le agregan 200 puntos a su marcador.
 Si a un brick de tipo Metal lo visita un game, a ese game se le agrega una Bola.
+# Testing
+Se agregaron test unitarios para GameLevel,Bricks junto con el test BigTest agrega el resto de coverage de lineas necesario para cumplir mas del 95% de lineas por paquete 
 # Funcionalidad y Como correr el programa
 Para correr este programa es necesario usar un computador , el programa se ejecuta desde un IDE, agregando el plugin JUNIT 4 teniendo Java version 8 instalado.
 Se debe correr el test BIGTEST, hay test unitarios para mostrar un coverage del 90% de lineas por paquete.
