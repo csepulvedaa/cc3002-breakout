@@ -1,5 +1,6 @@
 # cc3002-breakout
 Tarea2 Breakout
+Pasan 2 de 11 test, Hice un cambio en mi implementación en el método addPlayingLevel el cual no pude arreglar antes de tiempo 00:00 para que pasaran todos los test del archivo Bigtest.
 # Implementación de Bricks
 Cada Tipo de Brick extiende la clase AbstractBrick, la cual tiene definido el comportamiento de cada uno de los bricks
 (Ver Javadoc de cada clase brick para ver metodos)
