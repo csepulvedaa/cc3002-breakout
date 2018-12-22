@@ -44,7 +44,7 @@ public class BasicApp extends GameApplication  {
         gameSettings.setWidth(600);
         gameSettings.setHeight(600);
         gameSettings.setTitle("CC302-Breakout");
-        gameSettings.setVersion("0.1");
+        gameSettings.setVersion("1.0");
         gameSettings.setAppIcon("icon.png");
     }
 
