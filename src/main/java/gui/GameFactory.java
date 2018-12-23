@@ -9,15 +9,11 @@ import com.almasb.fxgl.physics.HitBox;
 import com.almasb.fxgl.physics.PhysicsComponent;
 import com.almasb.fxgl.physics.box2d.dynamics.BodyType;
 import com.almasb.fxgl.physics.box2d.dynamics.FixtureDef;
-import components.GlassBrickComponent;
-import components.MetalBrickComponent;
-import components.WoodenBrickComponent;
-import controller.*;
 import logic.brick.Brick;
 
 class GameFactory {
 
-    public enum ExampleType {
+    public enum Type {
         PLAYER, WALL, BALL, METALBRICK, GLASSBRICK, WOODENBRICK,
     }
 
@@ -29,7 +25,7 @@ class GameFactory {
             MetalBrickComponent MBrick = new MetalBrickComponent(brick);
             return Entities.builder().
                     at(x, y).
-                    type(ExampleType.METALBRICK)
+                    type(Type.METALBRICK)
                     .viewFromNodeWithBBox(FXGL.getAssetLoader().loadTexture("metal3.png", 50, 15))
                     .bbox(new HitBox("Box", BoundingShape.box(50, 15)))
                     .with(new CollidableComponent(true), physics, MBrick)
@@ -39,7 +35,7 @@ class GameFactory {
             WoodenBrickComponent WBrick = new WoodenBrickComponent(brick);
             return Entities.builder().
                     at(x, y).
-                    type(ExampleType.WOODENBRICK)
+                    type(Type.WOODENBRICK)
                     .viewFromNodeWithBBox(FXGL.getAssetLoader().loadTexture("wooden3.png", 50, 15))
                     .bbox(new HitBox("Box", BoundingShape.box(50, 15)))
                     .with(new CollidableComponent(true), physics, WBrick)
@@ -48,7 +44,7 @@ class GameFactory {
         GlassBrickComponent GBrick = new GlassBrickComponent(brick);
         return Entities.builder().
                 at(x, y).
-                type(ExampleType.GLASSBRICK)
+                type(Type.GLASSBRICK)
                 .viewFromNodeWithBBox(FXGL.getAssetLoader().loadTexture("glass.png", 50, 15))
                 .bbox(new HitBox("Box", BoundingShape.box(50, 15)))
                 .with(new CollidableComponent(true), physics, GBrick)
@@ -61,7 +57,7 @@ class GameFactory {
         PlayerControl control = new PlayerControl();
         return Entities.builder().
                 at(x,y).
-                type(ExampleType.PLAYER)
+                type(Type.PLAYER)
                 .viewFromNodeWithBBox(FXGL.getAssetLoader().loadTexture("bat.png",100,30))
                 .bbox(new HitBox("Box",BoundingShape.box(100,30)))
                 .with(new CollidableComponent(true),physics,control)
@@ -79,7 +75,7 @@ class GameFactory {
         BallControl control = new BallControl();
         return Entities.builder().
                 at(x,y)
-                .type(ExampleType.BALL)
+                .type(Type.BALL)
                 .bbox(new HitBox("Ball", BoundingShape.circle(10)))
                 .viewFromNodeWithBBox(FXGL.getAssetLoader().loadTexture("ball.png",15,15))
                 .with(physics,new CollidableComponent(true),control)
@@ -88,7 +84,7 @@ class GameFactory {
 
     static Entity newWalls(){
         Entity walls = Entities.makeScreenBounds(100);
-        walls.setType(ExampleType.WALL);
+        walls.setType(Type.WALL);
         walls.addComponent(new CollidableComponent(true));
         return walls;
     }

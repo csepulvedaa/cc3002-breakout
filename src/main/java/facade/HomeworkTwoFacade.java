@@ -1,7 +1,7 @@
 package facade;
 
 import controller.Game;
-import components.AppUpdater;
+import gui.AppUpdater;
 import logic.brick.Brick;
 import logic.level.Level;
 import logic.level.LevelBuilder;
@@ -196,7 +196,7 @@ public class HomeworkTwoFacade {
     }
 
     /**
-     * Assing an appupdater class as Updater
+     * Assing an appUpdater class as Updater
      * @param appUpdater
      */
     

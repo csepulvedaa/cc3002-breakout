@@ -1,6 +1,6 @@
 package controller;
 
-import components.AppUpdater;
+import gui.AppUpdater;
 import logic.brick.Brick;
 import logic.level.EmptyLevel;
 import logic.level.Level;

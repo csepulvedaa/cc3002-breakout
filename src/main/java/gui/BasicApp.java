@@ -13,11 +13,6 @@ import com.almasb.fxgl.physics.HitBox;
 import com.almasb.fxgl.physics.PhysicsComponent;
 import com.almasb.fxgl.settings.GameSettings;
 import com.almasb.fxgl.ui.InGamePanel;
-import components.AppUpdater;
-import components.GlassBrickComponent;
-import components.MetalBrickComponent;
-import components.WoodenBrickComponent;
-import controller.*;
 import facade.HomeworkTwoFacade;
 import javafx.scene.effect.BlendMode;
 import javafx.scene.input.KeyCode;
@@ -66,9 +61,9 @@ public class BasicApp extends GameApplication  {
     }
 
     private void mousEventHandler() {
-        getGameWorld().getEntitiesByType(ExampleType.GLASSBRICK).forEach(entity -> entity.getView().setOnMouseClicked(event -> entity.getComponent(GlassBrickComponent.class).OnHit()));
-        getGameWorld().getEntitiesByType(ExampleType.WOODENBRICK).forEach(entity -> entity.getView().setOnMouseClicked(event -> entity.getComponent(WoodenBrickComponent.class).OnHit()));
-        getGameWorld().getEntitiesByType(ExampleType.METALBRICK).forEach(entity -> entity.getView().setOnMouseClicked(event -> entity.getComponent(MetalBrickComponent.class).OnHit()));
+        getGameWorld().getEntitiesByType(Type.GLASSBRICK).forEach(entity -> entity.getView().setOnMouseClicked(event -> entity.getComponent(GlassBrickComponent.class).OnHit()));
+        getGameWorld().getEntitiesByType(Type.WOODENBRICK).forEach(entity -> entity.getView().setOnMouseClicked(event -> entity.getComponent(WoodenBrickComponent.class).OnHit()));
+        getGameWorld().getEntitiesByType(Type.METALBRICK).forEach(entity -> entity.getView().setOnMouseClicked(event -> entity.getComponent(MetalBrickComponent.class).OnHit()));
     }
 
 
@@ -94,24 +89,22 @@ public class BasicApp extends GameApplication  {
             protected void onAction() throws IndexOutOfBoundsException{
                 List<Entity> balls = null;
                 try {
-                    balls = getGameWorld().getEntitiesByType(ExampleType.BALL);
+                    balls = getGameWorld().getEntitiesByType(Type.BALL);
                 } catch (NullPointerException npe) {
-                    System.out.println("No More Balls");
                 }
                 try{
                 Entity ball = balls.get(0);
                     if (ball.getComponent(PhysicsComponent.class).getVelocityX()==0 && ball.getComponent(PhysicsComponent.class).getVelocityY()==0){
-                            getGameWorld().getEntitiesByType(ExampleType.BALL).
+                            getGameWorld().getEntitiesByType(Type.BALL).
                             forEach(e->e.getComponent(BallControl.class).right());
-                            getGameWorld().getEntitiesByType(ExampleType.PLAYER).
+                            getGameWorld().getEntitiesByType(Type.PLAYER).
                                 forEach(e-> e.getComponent(PlayerControl.class).right());
                     }
-                getGameWorld().getEntitiesByType(ExampleType.PLAYER).
+                getGameWorld().getEntitiesByType(Type.PLAYER).
                         forEach(e-> e.getComponent(PlayerControl.class).right());
 
             }
             catch (IndexOutOfBoundsException io){
-                System.out.println("No More Balls");
 
             }
             }
@@ -152,22 +145,20 @@ public class BasicApp extends GameApplication  {
             protected void onAction() throws IndexOutOfBoundsException{
                 List<Entity> balls = null;
                 try {
-                    balls = getGameWorld().getEntitiesByType(ExampleType.BALL);
+                    balls = getGameWorld().getEntitiesByType(Type.BALL);
                 } catch (NullPointerException npe) {
-                    System.out.println("No More Balls");
                 }
                 try{
                 Entity ball = balls.get(0);
                 if (ball.getComponent(PhysicsComponent.class).getVelocityX() == 0 && ball.getComponent(PhysicsComponent.class).getVelocityY() == 0) {
-                    getGameWorld().getEntitiesByType(ExampleType.BALL).
+                    getGameWorld().getEntitiesByType(Type.BALL).
                             forEach(e -> e.getComponent(BallControl.class).left());
-                    getGameWorld().getEntitiesByType(ExampleType.PLAYER).
+                    getGameWorld().getEntitiesByType(Type.PLAYER).
                             forEach(e -> e.getComponent(PlayerControl.class).left());
                 }
-                getGameWorld().getEntitiesByType(ExampleType.PLAYER).
+                getGameWorld().getEntitiesByType(Type.PLAYER).
                         forEach(e -> e.getComponent(PlayerControl.class).left());}
                 catch (IndexOutOfBoundsException e){
-                    System.out.println("No More Balls");
                 }
             }
         }, KeyCode.A);
@@ -176,15 +167,14 @@ public class BasicApp extends GameApplication  {
             protected void onAction() throws IndexOutOfBoundsException {
                 List<Entity> balls = null;
                 try {
-                    balls = getGameWorld().getEntitiesByType(ExampleType.BALL);
+                    balls = getGameWorld().getEntitiesByType(Type.BALL);
                 } catch (NullPointerException npe) {
-                    System.out.println("No More Balls");
                 }
                 try{
                 Entity ball = balls.get(0);
 
                 if (ball.getComponent(PhysicsComponent.class).getVelocityX() == 0 && ball.getComponent(PhysicsComponent.class).getVelocityY() == 0&& hw2.hasCurrentLevel()){
-                getGameWorld().getEntitiesByType(ExampleType.BALL).
+                getGameWorld().getEntitiesByType(Type.BALL).
                         forEach(e->e.getComponent(PhysicsComponent.class).setLinearVelocity(5*60,-5*60));}}
                 catch (IndexOutOfBoundsException e){}
             }
@@ -197,7 +187,7 @@ public class BasicApp extends GameApplication  {
     @Override
     public void initPhysics(){
         getPhysicsWorld().setGravity(0,0);
-        getPhysicsWorld().addCollisionHandler(new CollisionHandler(ExampleType.BALL,ExampleType.GLASSBRICK) {
+        getPhysicsWorld().addCollisionHandler(new CollisionHandler(Type.BALL, Type.GLASSBRICK) {
             @Override
             protected void onHitBoxTrigger(Entity ball, Entity GlassBrick, HitBox boxBall, HitBox boxBrick) {
                 getAudioPlayer().playSound("glass.wav");
@@ -224,7 +214,7 @@ public class BasicApp extends GameApplication  {
         });
 
 
-        getPhysicsWorld().addCollisionHandler(new CollisionHandler(ExampleType.BALL,ExampleType.WOODENBRICK) {
+        getPhysicsWorld().addCollisionHandler(new CollisionHandler(Type.BALL, Type.WOODENBRICK) {
             @Override
             protected void onHitBoxTrigger(Entity ball, Entity WoodenBrick, HitBox boxBall, HitBox boxBrick) {
                 getAudioPlayer().playSound("wood.wav");
@@ -244,7 +234,7 @@ public class BasicApp extends GameApplication  {
             }
         });
 
-        getPhysicsWorld().addCollisionHandler(new CollisionHandler(ExampleType.BALL,ExampleType.METALBRICK) {
+        getPhysicsWorld().addCollisionHandler(new CollisionHandler(Type.BALL, Type.METALBRICK) {
             @Override
             protected void onHitBoxTrigger(Entity ball, Entity MetalBrick, HitBox boxBall, HitBox boxBrick) {
                 MetalBrick.getComponent(MetalBrickComponent.class).OnHit();
@@ -265,7 +255,7 @@ public class BasicApp extends GameApplication  {
             }
         });
 
-        getPhysicsWorld().addCollisionHandler(new CollisionHandler(ExampleType.PLAYER,ExampleType.WALL) {
+        getPhysicsWorld().addCollisionHandler(new CollisionHandler(Type.PLAYER, Type.WALL) {
             @Override
             protected void onHitBoxTrigger(Entity Player, Entity Wall, HitBox boxPlayer, HitBox boxWall) {
 
@@ -273,12 +263,11 @@ public class BasicApp extends GameApplication  {
         });
 
 
-        getPhysicsWorld().addCollisionHandler(new CollisionHandler(ExampleType.BALL,ExampleType.WALL) {
+        getPhysicsWorld().addCollisionHandler(new CollisionHandler(Type.BALL, Type.WALL) {
             @Override
             protected void onHitBoxTrigger(Entity Ball, Entity Wall, HitBox boxBall, HitBox boxWall) {
                 if (boxWall.getName()=="BOT"){
                     if(hw2.isGameOver()){
-                        System.out.println("gameOver");
                         Entity GameOver = gameOver();
                         Entity retry = retry();
                         getGameWorld().addEntities(GameOver,retry);
@@ -286,7 +275,6 @@ public class BasicApp extends GameApplication  {
                     Ball.removeFromWorld();
                     hw2.dropBall();
                     if(hw2.isGameOver()){
-                        System.out.println("gameOver");
                         Entity GameOver = gameOver();
                         Entity retry = retry();
                         getGameWorld().addEntities(GameOver,retry);
@@ -299,7 +287,7 @@ public class BasicApp extends GameApplication  {
                 }
             }
         });
-        getPhysicsWorld().addCollisionHandler(new CollisionHandler(ExampleType.BALL,ExampleType.WALL) {
+        getPhysicsWorld().addCollisionHandler(new CollisionHandler(Type.BALL, Type.WALL) {
             @Override
             protected void onHitBoxTrigger(Entity Ball, Entity Wall, HitBox boxBall, HitBox boxWall) {
                 if (boxWall.getName()=="LEFT"||boxWall.getName()=="RIGHT"){
@@ -317,7 +305,7 @@ public class BasicApp extends GameApplication  {
     }
 
     private void newBall() {
-        List<Entity> players = getGameWorld().getEntitiesByType(ExampleType.PLAYER);
+        List<Entity> players = getGameWorld().getEntitiesByType(Type.PLAYER);
         Entity player = players.get(0);
         Entity ball= GameFactory.newBall(player.getX()+40,player.getY()-15);
         getGameWorld().addEntities(ball);
@@ -331,14 +319,12 @@ public class BasicApp extends GameApplication  {
 
     private void newLevel(){
         added++;
-        System.out.println("SE CREA NUEVO NIVEL "+added);
         Level level1 = hw2.newLevelWithBricksFull("Level "+added, 20, 0.5, 0.2, (int) System.currentTimeMillis());
         hw2.setCurrentLevel(level1);
 
     }
     private void addPlayinglevel() {
         added++;
-        System.out.println("SE AGREGA NUEVO NIVEL "+added);
         Level level2 = hw2.newLevelWithBricksFull("Level "+added, 20, 0.5, 0.2, (int) System.currentTimeMillis());
         hw2.addPlayingLevel(level2);
     }
@@ -371,8 +357,6 @@ public class BasicApp extends GameApplication  {
 
     public  void changeLevel(){
         passed++;
-        System.out.println("Hay siguiente nivel? "+hw2.hasNextLevel());
-        System.out.println("Se gano el juego? "+hw2.winner());
         if(!hw2.winner()){
             cleanScreen();
             brickDisplayed();}
@@ -382,25 +366,17 @@ public class BasicApp extends GameApplication  {
             getGameWorld().addEntities(win,retry);
         }
     }
-
-
-
-
-
     private void cleanScreen() {
-        getGameWorld().getEntitiesByType(ExampleType.METALBRICK,ExampleType.GLASSBRICK,ExampleType.WOODENBRICK).forEach(entity -> entity.removeFromWorld());
+        getGameWorld().getEntitiesByType(Type.METALBRICK, Type.GLASSBRICK, Type.WOODENBRICK).forEach(entity -> entity.removeFromWorld());
     }
 
     private void brickDisplayed(){
-        System.out.println("Brickdisplayed "+hw2.getLevelName());
 
         List <Brick> BrickList = hw2.getBricks();
         Collections.shuffle(BrickList);
         int n=BrickList.size();
         double r=n/10;
         Math.ceil(r);
-        System.out.println(hw2.getLevelName()+" Numero de bricks "+n+" Numero de Filas "+r );
-        System.out.println("Puntos obtenibles" +hw2.getLevelPoints());
         int displayed=0;
 
         for (int j=0;j<r;j++){
