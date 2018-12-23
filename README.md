@@ -2,6 +2,9 @@
 Tarea 3 Breakout
 En este readme se mostrara lo necesario para entender este reposiorio.
 Se utilizó el codigo base propuesto por el auxiliar del curso Juan Pablo Silva
+Utilice el patron Observer para notificar a la Grafic User Interface (GUI) en la clas los cambios ocurridos dentro de la clase game mediante la clase AppUpdater.
+También cree otras clases y componentes dentro del paquete GUI, por ejemplo Ball/Player Controll para controlar los movimientos, Una interface BrickComponent para implementar los métodos que los componentes lógicos de la tarea 2 deben hacer override para lograr agregarse como componente lógico funcional a la clase Entidad de FXGL.
+Tódo lo implementado en esta tarea3 se encuentra dentro del paquete GUI.
 
 # Correr la Aplicacion
 Para correr la aplicacion Breakout, basta con ejecutar el main de la clase BasicAPP, el cual lanza la interfaz gráfica del juego, al ejecutar se verá algo como esto
