@@ -12,6 +12,10 @@ import logic.brick.MetalBrick;
 
 public class MetalBrickComponent extends Component implements BrickComponent{
     private MetalBrick MBrick;
+    /**
+     * Creates a MetalBrick Component
+     * @param brick a logic brick
+     */
     public MetalBrickComponent(Brick brick){
         MBrick=(MetalBrick)brick;
     }

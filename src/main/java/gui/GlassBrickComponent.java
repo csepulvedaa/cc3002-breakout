@@ -17,6 +17,11 @@ import logic.brick.GlassBrick;
 public class GlassBrickComponent extends Component implements BrickComponent {
     private GlassBrick GBrick;
     private ParticleEmitter emitter;
+
+    /**
+     * Creates a Glassbrick Component
+     * @param brick a logic brick
+     */
     public GlassBrickComponent(Brick brick){
         GBrick=(GlassBrick)brick;
     }

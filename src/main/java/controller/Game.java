@@ -32,8 +32,8 @@ public class Game extends Observable implements Observer , LevelUpdateReceiver {
         return currentLevel.getBricks();
     }
 
-    public boolean hasNextLevel() {
-        return currentLevel.hasNextLevel();
+    public boolean hasNextLevel(){
+            return currentLevel.hasNextLevel();
     }
 
     public void goNextLevel() {

@@ -26,6 +26,10 @@ import java.util.List;
 
 import static gui.GameFactory.*;
 
+/**Grafic User Interface for cc3201 Breakout
+ * @author csepu
+ * @version Dic 2018
+ */
 
 public class BasicApp extends GameApplication  {
     private HomeworkTwoFacade hw2;
@@ -355,7 +359,7 @@ public class BasicApp extends GameApplication  {
         getGameScene().addUINode(panel);
     }
 
-    public  void changeLevel(){
+    void changeLevel(){
         passed++;
         if(!hw2.winner()){
             cleanScreen();

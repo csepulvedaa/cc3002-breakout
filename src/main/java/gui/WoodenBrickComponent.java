@@ -12,7 +12,10 @@ import logic.brick.WoodenBrick;
 
 public class WoodenBrickComponent extends Component implements BrickComponent {
     private WoodenBrick WBrick;
-
+    /**
+     * Creates a WoodenBrick Component
+     * @param brick a logic brick
+     */
     public WoodenBrickComponent(Brick brick) {
         WBrick=(WoodenBrick)brick;
     }

@@ -3,111 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="cd719497-8970-4d8d-8bdb-89ace110657a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/breakout.iml" beforeDir="false" afterPath="$PROJECT_DIR$/breakout.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-22-dic-2018-17.30.48.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-22-dic-2018-17.38.23.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-22-dic-2018-17.38.25.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-22-dic-2018-17.39.21.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-22-dic-2018-17.43.28.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-22-dic-2018-17.45.58.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-22-dic-2018-17.46.05.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-22-dic-2018-17.47.20.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/components/AppUpdater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/AppUpdater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/components/BrickComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/BrickComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/components/GlassBrickComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/GlassBrickComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/components/MetalBrickComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/MetalBrickComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/components/WoodenBrickComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/WoodenBrickComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/BallControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/BallControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/PlayerControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/PlayerControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/facade/HomeworkTwoFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facade/HomeworkTwoFacade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gui/BasicApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/BasicApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gui/GameFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/GameFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/BigTestT2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/License.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/01-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/02-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/03-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/04-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/05-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/06-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/07-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/08-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/09-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/10-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/11-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/12-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/13-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/14-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/15-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/16-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/17-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/18-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/19-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/20-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/21-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/22-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/23-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/24-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/25-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/26-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/27-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/28-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/29-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/30-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/31-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/32-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/33-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/34-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/35-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/36-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/37-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/38-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/39-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/40-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/41-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/42-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/43-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/44-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/45-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/46-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/47-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/48-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/49-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/50-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/51-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/52-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/53-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/54-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/55-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/56-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/57-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/58-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/59-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/60-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/61-Breakout-Tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/PNG/picturetopeople.org-f8df823120333182cc5d27d5943451e03cb08a8b97c5974445.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/Sprite Sheet/Breakout_Tile_Free.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/Sprite Sheet/Breakout_Tile_Free.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/Vector/Breakout Tile Set Free.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/Vector/Breakout Tile Set Free.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/preview.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/BO/sample.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/BasicApp$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gui/BasicApp$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/BasicApp$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gui/BasicApp$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/BasicApp$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gui/BasicApp$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/BasicApp$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gui/BasicApp$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/BasicApp$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gui/BasicApp$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/BasicApp$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gui/BasicApp$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/BasicApp$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gui/BasicApp$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/BasicApp$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gui/BasicApp$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/BasicApp$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gui/BasicApp$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/BasicApp$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gui/BasicApp$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/BasicApp$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gui/BasicApp$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/BasicApp$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gui/BasicApp$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/BasicApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gui/BasicApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/GameFactory$ExampleType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/GameFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gui/GameFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/GlassBrickComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/GlassBrickComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/MetalBrickComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/MetalBrickComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/WoodenBrickComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/WoodenBrickComponent.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -195,23 +96,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="210" />
+          <entry key="java" value="452" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="210" />
+          <entry key="JAVA" value="452" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="18" />
+          <entry key="JAVA/" value="6" />
+          <entry key="JavaScript-modules-diagram/C:/Users/csepu/Desktop/U CHILE DCC/Tareas/CC3002-1 Metodologías de Diseño y Programación 2018/cc3002-breakout/src" value="1" />
+          <entry key="JavaScript-modules-diagram/C:/Users/csepu/Desktop/U CHILE DCC/Tareas/CC3002-1 Metodologías de Diseño y Programación 2018/cc3002-breakout/src/main" value="2" />
+          <entry key="JavaScript-modules-diagram/C:/Users/csepu/Desktop/U CHILE DCC/Tareas/CC3002-1 Metodologías de Diseño y Programación 2018/cc3002-breakout/src/main/java" value="1" />
+          <entry key="java" value="30" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="18" />
+          <entry key="JAVA" value="30" />
+          <entry key="UML" value="10" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -220,18 +126,140 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gui/BasicApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5508">
+              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4267#4268#0" expanded="true" />
+                <element signature="e#4317#4318#0" expanded="true" />
+                <element signature="e#12801#12802#0" expanded="true" />
+                <element signature="e#12829#12830#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-816">
-              <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+            <state relative-caret-position="323">
+              <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+              <folding>
+                <element signature="e#696#697#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#1009#1010#0" expanded="true" />
+                <element signature="e#1062#1063#0" expanded="true" />
+                <element signature="e#1100#1101#0" expanded="true" />
+                <element signature="e#1135#1136#0" expanded="true" />
+                <element signature="e#1274#1275#0" expanded="true" />
+                <element signature="e#1312#1313#0" expanded="true" />
+                <element signature="e#1341#1342#0" expanded="true" />
+                <element signature="e#1373#1374#0" expanded="true" />
+                <element signature="e#1505#1506#0" expanded="true" />
+                <element signature="e#1541#1542#0" expanded="true" />
+                <element signature="e#1781#1782#0" expanded="true" />
+                <element signature="e#1838#1839#0" expanded="true" />
+                <element signature="e#2233#2234#0" expanded="true" />
+                <element signature="e#2284#2285#0" expanded="true" />
+                <element signature="e#2315#2316#0" expanded="true" />
+                <element signature="e#2344#2345#0" expanded="true" />
+                <element signature="e#2396#2397#0" expanded="true" />
+                <element signature="e#2435#2436#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gui/GlassBrickComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="23" selection-end-column="7" />
+              <folding>
+                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gui/MetalBrickComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gui/PlayerControl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gui/AppUpdater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gui/BallControl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-13">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="0.0" y="0.0">controller</node>
+                <node x="0.0" y="74.0">facade</node>
+                <node x="0.0" y="148.0">logic</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="0.9012345679012346" x="265.0" y="273.5" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gui/BrickComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/facade/HomeworkTwoFacade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2036">
+            <state relative-caret-position="914">
               <caret line="198" column="39" selection-start-line="198" selection-start-column="39" selection-end-line="198" selection-end-column="39" />
             </state>
           </provider>
@@ -304,11 +332,7 @@
         <option value="$PROJECT_DIR$/src/main/java/gui/BallControll.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/PlayerControl.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/BrickComponent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gui/MetalBrickComponent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gui/WoodenBrickComponent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gui/GlassBrickComponent.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/AppUpdater.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/Game.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/BallControll.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/BallControl.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/PlayerControl.java" />
@@ -318,11 +342,15 @@
         <option value="$PROJECT_DIR$/src/main/java/components/WoodenBrickComponent.java" />
         <option value="$PROJECT_DIR$/src/main/java/components/AppUpdater.java" />
         <option value="$PROJECT_DIR$/src/main/java/facade/HomeworkTwoFacade.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gui/GameFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gui/BasicApp.java" />
         <option value="$PROJECT_DIR$/src/main/test/logic/level/LevelTest.java" />
         <option value="$PROJECT_DIR$/src/main/test/logic/brick/BrickTests.java" />
         <option value="$PROJECT_DIR$/src/main/test/controller/GameTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gui/GameFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gui/GlassBrickComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gui/MetalBrickComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gui/WoodenBrickComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/Game.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gui/BasicApp.java" />
       </list>
     </option>
   </component>
@@ -405,33 +433,6 @@
               <item name="cc3002-breakout" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-              <item name="brick" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="breakout" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cc3002-breakout" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-              <item name="level" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="breakout" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cc3002-breakout" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-              <item name="update" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="breakout" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cc3002-breakout" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -445,7 +446,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545526172645" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545528067708" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
@@ -636,7 +637,7 @@
       <workItem from="1545332872978" duration="12459000" />
       <workItem from="1545405461158" duration="43967000" />
       <workItem from="1545518194048" duration="475000" />
-      <workItem from="1545518767079" duration="6584000" />
+      <workItem from="1545518767079" duration="8335000" />
     </task>
     <servers />
   </component>
@@ -644,9 +645,12 @@
     <history-entry file="BigTestT2 - 2018.12.05 at 22h 29m 42s.xml">
       <configuration name="BigTestT2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_breakout - 2018.12.22 at 21h 49m 19s.xml">
+      <configuration name="All in breakout" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166754000" />
+    <option name="totallyTimeSpent" value="168505000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -659,6 +663,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.82566583" visible="true" weight="0.20890689" />
       <window_info id="Structure" order="1" sideWeight="0.17433414" side_tool="true" weight="0.2874494" />
@@ -669,7 +674,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1975089" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291815" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39679715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -693,7 +698,7 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.82566583" visible="true" weight="0.50121456" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.82566583" visible="true" weight="0.20890689" />
       <window_info id="Structure" order="1" sideWeight="0.17433414" side_tool="true" weight="0.2874494" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -702,7 +707,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1975089" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3291815" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39679715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -711,7 +716,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3291815" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.0053380784" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.0053380784" />
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.3291815" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.3291815" />
       <window_info anchor="bottom" id="Dependency Viewer" order="14" weight="0.3291815" />
@@ -859,35 +864,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/logic/level/BreakoutLevel.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/logic/level/EmptyLevel.java" />
-    <entry file="uml://JAVA/">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="" y="">kotlinx.coroutines</node>
-            <node x="" y="">controller.Game</node>
-            <node x="" y="">gui.BasicApp</node>
-            <node x="" y="">components</node>
-            <node x="" y="">gui.GameFactory</node>
-            <node x="" y="">gui.GameFactory.ExampleType</node>
-            <node x="" y="">kotlinx.atomicfu</node>
-            <node x="" y="">controller.BallControll</node>
-            <node x="" y="">controller.PlayerControl</node>
-            <node x="" y="">java</node>
-            <node x="" y="">logic</node>
-            <node x="" y="">javafx</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.8888888888888888" x="265.0" y="274.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/logic/brick/GlassBrick.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -895,72 +871,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/GameFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/logic/brick/BrickTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-425">
           <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/BasicApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="368" column="4" selection-start-line="368" selection-start-column="4" selection-end-line="368" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/AppUpdater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/BrickComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/GlassBrickComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/MetalBrickComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/WoodenBrickComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/BallControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1006,24 +920,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/PlayerControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/logic/brick/AbstractBrick.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-816">
-          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -1039,10 +939,195 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/csepu/Desktop/U CHILE DCC/Tareas/CC3002-1 Metodologías de Diseño y Programación 2018/cc3002-breakout/src">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="488.5" y="255.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/GameFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-251">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/WoodenBrickComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/GlassBrickComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="23" selection-end-column="7" />
+          <folding>
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/MetalBrickComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/facade/HomeworkTwoFacade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2036">
+        <state relative-caret-position="914">
           <caret line="198" column="39" selection-start-line="198" selection-start-column="39" selection-end-line="198" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding>
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1135#1136#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1312#1313#0" expanded="true" />
+            <element signature="e#1341#1342#0" expanded="true" />
+            <element signature="e#1373#1374#0" expanded="true" />
+            <element signature="e#1505#1506#0" expanded="true" />
+            <element signature="e#1541#1542#0" expanded="true" />
+            <element signature="e#1781#1782#0" expanded="true" />
+            <element signature="e#1838#1839#0" expanded="true" />
+            <element signature="e#2233#2234#0" expanded="true" />
+            <element signature="e#2284#2285#0" expanded="true" />
+            <element signature="e#2315#2316#0" expanded="true" />
+            <element signature="e#2344#2345#0" expanded="true" />
+            <element signature="e#2396#2397#0" expanded="true" />
+            <element signature="e#2435#2436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/AppUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/BasicApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5508">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4267#4268#0" expanded="true" />
+            <element signature="e#4317#4318#0" expanded="true" />
+            <element signature="e#12801#12802#0" expanded="true" />
+            <element signature="e#12829#12830#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/BrickComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/PlayerControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/csepu/Desktop/U CHILE DCC/Tareas/CC3002-1 Metodologías de Diseño y Programación 2018/cc3002-breakout/src/main">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/main</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="488.5" y="255.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/csepu/Desktop/U CHILE DCC/Tareas/CC3002-1 Metodologías de Diseño y Programación 2018/cc3002-breakout/src/main/java">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/main/java</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="488.5" y="255.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/BallControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="0.0" y="0.0">controller</node>
+            <node x="0.0" y="74.0">facade</node>
+            <node x="0.0" y="148.0">logic</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9012345679012346" x="265.0" y="273.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>

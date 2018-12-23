@@ -12,7 +12,10 @@ import com.almasb.fxgl.physics.box2d.dynamics.FixtureDef;
 import logic.brick.Brick;
 
 class GameFactory {
-
+    /**
+     * Types for the Colision Handler And Gui Interface
+     *
+     */
     public enum Type {
         PLAYER, WALL, BALL, METALBRICK, GLASSBRICK, WOODENBRICK,
     }
