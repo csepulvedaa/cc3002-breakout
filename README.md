@@ -1,9 +1,33 @@
-# cc3002-breakout
-Tarea2 Breakout
-Pasan 2 de 11 test, Hice un cambio en mi implementación en el método addPlayingLevel el cual no pude arreglar antes de tiempo 00:00 para que pasaran todos los test del archivo Bigtest.
-# Implementación de Bricks
-Cada Tipo de Brick extiende la clase AbstractBrick, la cual tiene definido el comportamiento de cada uno de los bricks
-(Ver Javadoc de cada clase brick para ver metodos)
+# cc3002-breakout Tarea 3
+Tarea 3 Breakout
+En este readme se mostrara lo necesario para entender este reposiorio.
+Se utilizó el codigo base propuesto por el auxiliar del curso Juan Pablo Silva
+
+# Correr la Aplicacion
+Para correr la aplicacion Breakout, basta con ejecutar el main de la clase BasicAPP, el cual lanza la interfaz gráfica del juego, al ejecutar se verá algo como esto
+ss1
+El juego comienza sin ningún nivel configurado, lo cual sólo permite mover la Barra alrededor de los bordes de la pantalla, para comenzar a jugar se presiona la tecla N.
+Esta Acción settea un nuevo nivel para el juego con parámetros por defecto y lo muestra en la pantalla (llamando al metodo newlevel dentro de la clase BasicApp), seteando un nuevo nivel con 20 bricks, 0,5 de prob de ser Glassbrick, 0.2 de prob de ser MetalBrick y una seed al azar usando la funcion System.currentTimeMillis().
+Cada vez que se presiona esta tecla, se genera un nuevo nivel con los parametros dados, agregandolo a la lista de niveles jugables.
+ss2
+Una vez que se setea el nivel y se muestran los bricks en pantalla es posible lanzar la bolita con la tecla espacio y comenzar a jugar.
+## Elementos en pantalla
++Barra, se muestra en la parte inferior de la pantalla y permanece dentro de los screenbounds,Una vez que se pierde o se gana el juego la barra no es movible
++Bolas hay sólo una bola en todo momento en la pantalla, si la bola se pierde, se disminute el contador de bolas y la bola se posiciona en el centro de la barra
++Brick corresponden a los bloques dentro del nivel,cada brick tiene una textura y sonido distinto según el tipo de brick implementado en la lógica de la tarea2
++Informacion La información se muestra en un panel al costado del juego, para ver la información del juego se debe presionar la tecla TABULACIÓN.
+Esta información muestra el puntaje a obtener y el puntaje acumulado entre niveles 
+## Acciones minimas implementadas.
++Mover Barra: La barra se mueve en 2 direcciones en forma horizontal dentro de los ScreenBounds.
++Nueva Bola: El juego automáticamente crea una nueva bola si hay bolas disponibles en el centro de la barra, juan pablo publico en el foro  [podía mover la barra y la bolita juntos](https://www.u-cursos.cl/ingenieria/2018/2/CC3002/1/foro/o/23327201) así que también lo agregue en el readme, al presionar la tecla ESPACIO la bolita sale disparada.
++Nuevo Nivel: Ya se explicó en el funcionamiento de la aplicación como funciona esta acción.
+
+
+
+ 
+
+
+
 # Implementación de Level
 Cada nivel se implementó en la clase GameLevel como una lista enlazada, cada nivel contiene al nivel que lo sigue
 La clase gamelevel implementa la interfaz Level 
