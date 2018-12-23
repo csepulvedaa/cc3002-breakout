@@ -60,11 +60,9 @@ Así la llamada al método IsWoodenBrick()... etc sólo se hace en la creación 
 ## Mayores:
 1. Estado Distinto: Cuando un brick es golpeado este modifica la textura agregada al juego, en el caso del glassbrick es destruido automáticamente
 
-
 2.-Mecanismo de Testing:Al presionar la tecla "T" permite simular un golpe a un brick con un click del mouse, llamando al método Onhit() del componente lógico del Brick para cada entidad brick, esto permite pasar los niveles clickeando los brick, donde un click se considera un golpe.
 
-
-Esto no aplica para las colisiones de la bola con los bricks, sólo para testear el pasar niveles clickeando los bricks con el mouse (pregunté a JP en auxiliar y me dijo que esto funcionaba como testing).
+Esto no aplica para las colisiones de la bola con los bricks, sólo para testear el pasar niveles clickeando los bricks con el mouse (pregunté a Juan Pablo en auxiliar y me confirmó que esto funcionaba como testing).
 
 ## Menores:
 1. Sonido al golpe: cuando la bola golpea un brick se reproduce un sonido distinto para cada tipo de brick, cuando un brick se destruye se escucha un sonido especial.
@@ -81,7 +79,7 @@ Primera vez que se presiona tab.
 
 Segunda vez que se presiona tab.
 
-[alt text](https://raw.githubusercontent.com/csepulvedaa/cc3002-breakout/master/src/main/resources/assets/screenshots/Screenshot_7.png "Informacion Solapada")
+![alt text](https://raw.githubusercontent.com/csepulvedaa/cc3002-breakout/master/src/main/resources/assets/screenshots/Screenshot_7.png "Informacion Solapada")
 
 # Programado y Ejecutado con:
 1. IntelliJ Usando Maven Dependency Management
